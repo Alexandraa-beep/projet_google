@@ -1,0 +1,94 @@
+
+body {
+font-family: sans-serif; 
+font-size: 95%;
+}
+
+header {
+
+	display: flex;
+	justify-content: flex-end;
+	height: 50px;
+}
+a {
+  text-decoration: none;
+  color: grey;
+  margin: 10px 15px 10px 15px;
+}
+
+#logo {
+
+	display: flex; 
+  height: 350px;
+	justify-content: center;
+
+
+}
+
+#barre_recherche {
+
+  display: flex;	
+  justify-content: center;
+
+}
+
+#boutons_cliquables {
+
+  display: flex;
+justify-content: center; 
+
+  }
+
+  footer {
+background: #E8E8EB;
+position: fixed;
+border-top: solid 2px #e4e4e4;
+bottom: 0;
+padding-bottom: 0;
+width: 100%;
+z-index: 104;
+
+}
+hr {
+  color: #cdcaca;
+}
+
+.pays {
+  width: 100%;
+  height: 10px;
+}
+
+#gauche{
+  float: left;
+  margin: 10px;
+  padding-top: 5px;
+}
+
+#droit {
+  float: right;
+  margin:10px;
+  margin-bottom: 3px;
+}
+
+
+#connect {
+display: inline-block;
+padding: 0px 10px 0px 0px; 
+height: 40px;
+width: 100px;
+background-position: -130px -30px;
+margin-top: 10px;
+opacity:55;
+}
+
+#apps {
+display: inline-block;
+padding: 0px 10px 0px 0px; 
+height: 40px;
+width: 40px;
+background-position: -150px -40px;
+margin-top: 11px;
+opacity: .55;
+}
+
+
